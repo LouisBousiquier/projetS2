@@ -1,0 +1,112 @@
+# depslib dependency file v1.0
+1522743703 source:d:\louis\scolarité\ece\info\projet semestre 2\graph_lib_v1\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1522743703 d:\louis\scolarité\ece\info\projet semestre 2\graph_lib_v1\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1522831676 source:d:\louis\scolarité\ece\info\projet semestre 2\graph_lib_v1\graph_lib_exemple_graph\graph.cpp
+	"graph.h"
+
+1522830407 d:\louis\scolarité\ece\info\projet semestre 2\graph_lib_v1\graph_lib_exemple_graph\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522743703 d:\louis\scolarité\ece\info\projet semestre 2\graph_lib_v1\graph_lib_exemple_graph\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522743703 d:\louis\scolarité\ece\info\projet semestre 2\graph_lib_v1\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1522743703 d:\louis\scolarité\ece\info\projet semestre 2\graph_lib_v1\graph_lib_exemple_graph\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522743703 source:d:\louis\scolarité\ece\info\projet semestre 2\graph_lib_v1\graph_lib_exemple_graph\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522743703 source:d:\louis\scolarité\ece\info\projet semestre 2\graph_lib_v1\graph_lib_exemple_graph\grman\widget.cpp
+	"widget.h"
+
+1522743703 source:d:\louis\scolarité\ece\info\projet semestre 2\graph_lib_v1\graph_lib_exemple_graph\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
+1522743703 source:d:\louis\scolarité\ece\info\projet_semestre_2\graph_lib_v1\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1522743703 d:\louis\scolarité\ece\info\projet_semestre_2\graph_lib_v1\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1522743703 source:d:\louis\scolarité\ece\info\projet_semestre_2\graph_lib_v1\graph_lib_exemple_graph\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522743703 d:\louis\scolarité\ece\info\projet_semestre_2\graph_lib_v1\graph_lib_exemple_graph\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522743703 d:\louis\scolarité\ece\info\projet_semestre_2\graph_lib_v1\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1522859232 d:\louis\scolarité\ece\info\projet_semestre_2\graph_lib_v1\graph_lib_exemple_graph\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522743703 source:d:\louis\scolarité\ece\info\projet_semestre_2\graph_lib_v1\graph_lib_exemple_graph\grman\widget.cpp
+	"widget.h"
+
+1522857631 source:d:\louis\scolarité\ece\info\projet_semestre_2\graph_lib_v1\graph_lib_exemple_graph\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
+1522858073 d:\louis\scolarité\ece\info\projet_semestre_2\graph_lib_v1\graph_lib_exemple_graph\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522860535 source:d:\louis\scolarité\ece\info\projet_semestre_2\graph_lib_v1\graph_lib_exemple_graph\graph.cpp
+	"graph.h"
+	"grman\widget.h"
+
