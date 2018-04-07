@@ -12,13 +12,23 @@ int main()
     grman::set_pictures_path("pics");
 
     /// Un exemple de graphe
-
+while ( !key[KEY_E] )
+    {
     Graph g;
+    Graph g2;
+    Graph g3;
     ///g.graphe1();
+    g.CreateInterface();
+
+//g2.CreateInterface();
+     if(mouse_b&1 && (mouse_x<140 && mouse_x>90)&&(mouse_y<139 &&mouse_y>79))
+    {
+        g2.CreateInterface();
+        g2.Charger("Toto.txt");
+
+
 
     ///Louis
-    g.CreateInterface();
-    g.Charger("Toto.txt");
 
 
     /// Vous gardez la main sur la "boucle de jeu"
@@ -27,28 +37,45 @@ int main()
     {
 
         /// Il faut appeler les méthodes d'update des objets qui comportent des widgets
-        g.update();
+        g2.update();
 
 
         /// Mise à jour générale (clavier/souris/buffer etc...)
         grman::mettre_a_jour();
 
         ///pour enregistrer apres modification du graphe
-        if(mouse_b&1 && (mouse_x<188 && mouse_x>90)&&(mouse_y<110 &&mouse_y>19))
+        if(mouse_b&1 && (mouse_x<140 && mouse_x>90)&&(mouse_y<79 &&mouse_y>19))
+            {
+                g2.modifsommet();
+                g2.Enregistrer("nouveaug1.txt");
+            }
+    }
+}
+
+    if(mouse_b&1 && (mouse_x<140 && mouse_x>90)&&(mouse_y<199 &&mouse_y>139))
     {
-        /*/// Il faut appeler les méthodes d'update des objets qui comportent des widgets
-        g.update();
+        g3.CreateInterface();
+        g3.Charger("nouveau.txt");
+        while ( !key[KEY_ESC] )
+    {
+
+        /// Il faut appeler les méthodes d'update des objets qui comportent des widgets
+        g3.update();
+
 
         /// Mise à jour générale (clavier/souris/buffer etc...)
-        grman::mettre_a_jour();*/
+        grman::mettre_a_jour();
 
-        g.modifsommet();
-        g.Enregistrer("nouveaug1.txt");
-
-
+        ///pour enregistrer apres modification du graphe
+        if(mouse_b&1 && (mouse_x<140 && mouse_x>90)&&(mouse_y<79 &&mouse_y>19))
+            {
+                g3.modifsommet();
+                g3.Enregistrer("nouveaug1.txt");
+            }
+    }
+    }
     }
 
-    }
 
 
     grman::fermer_allegro();

@@ -276,7 +276,8 @@ class GraphInterface
 
         ///ajoute par louis
         grman::WidgetBox sauvegarde;
-        ///grman::WidgetBox
+        grman::WidgetBox graphe1;
+        grman::WidgetBox graphe2;
 
 
 

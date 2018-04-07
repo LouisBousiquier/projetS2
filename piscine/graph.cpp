@@ -170,6 +170,16 @@ GraphInterface::GraphInterface(int x, int y, int w, int h)
     sauvegarde.set_pos(2,3);
     sauvegarde.set_bg_color(BLANCBLEU);
 
+    m_tool_box.add_child(graphe1);
+    graphe1.set_dim(50,60);
+    graphe1.set_pos(2,65);
+    graphe1.set_bg_color(BLANCBLEU);
+
+    m_tool_box.add_child(graphe2);
+    graphe2.set_dim(50,60);
+    graphe2.set_pos(2,127);
+    graphe2.set_bg_color(BLANCBLEU);
+
 }
 
 ///AJOUTE PAR LOUIS
@@ -194,7 +204,7 @@ void Graph::modifsommet()
         m_vertices[2].setval(m_vertices[1].getval()*0.15);
 
         m_a=-1;
-}
+    }
 //}
 }
 /*double Graph::getvalue()
@@ -526,7 +536,7 @@ void Graph::Charger(std::string fichier)
     std::string elementLine;
     std::string categorie = "";
     int index = 0;
-    int vertexMaxElement = 6;
+    int vertexMaxElement = 8;
     int edgeMaxElement = 4;
     std::string vertexValues[vertexMaxElement];
     std::string edgesValues[edgeMaxElement];
@@ -544,12 +554,12 @@ void Graph::Charger(std::string fichier)
 
             if(categorie== m_vertexName && element != m_vertexName)
             {
-                ///on a seulement 6 valeurs à gérer pour les sommets
+                ///on a seulement 8 valeurs à gérer pour les sommets
                 vertexValues[index] = element;
                 if(index == vertexMaxElement-1)
                 {
                     ///create the vertex
-                    add_interfaced_vertex(vertexValues[1],std::stoi(vertexValues[0]),std::stod(vertexValues[2]),std::stoi(vertexValues[4]),std::stoi(vertexValues[5]),0,1000,vertexValues[3]);
+                    add_interfaced_vertex(vertexValues[1],std::stoi(vertexValues[0]),std::stod(vertexValues[2]),std::stoi(vertexValues[4]),std::stoi(vertexValues[5]),std::stoi(vertexValues[6]),std::stoi(vertexValues[7]),vertexValues[3]);
                 }
                 index = (index+1)%vertexMaxElement;
             }

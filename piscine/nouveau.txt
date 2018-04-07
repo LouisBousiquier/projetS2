@@ -1,9 +1,9 @@
 Vertex
-0 plancton 271.429 clown1.jpg 65 76
-1 poisson 314.286 clown2.jpg 396 96
-2 pingouin 25 clown3.jpg 196 296
-3 lion_de_mer 10 clown4.jpg 380 476
-4 orque 2 clown5.jpg 596 296
+0 plancton 271.429 clown1.jpg 65 76 0 1000
+1 poisson 314.286 clown2.jpg 396 96 0 200
+2 pingouin 25 clown3.jpg 196 296 0 150
+3 lion_de_mer 10 clown4.jpg 380 476 0 100
+4 orque 2 clown5.jpg 596 296 0 50
 Edges
 0 0 1 50
 1 1 2 50
